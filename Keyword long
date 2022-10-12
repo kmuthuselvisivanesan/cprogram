@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	long b;
+	long long c;
+	double d;
+	long double e;
+	 printf("\nsize of int is %zu",sizeof(a));
+     printf("\nsize of long is %zu",sizeof(b));
+     printf("\nsize of long long is %zu",sizeof(c));
+     printf("\nsize of double is %zu",sizeof(d));
+     printf("\nsize of long double is %zu",sizeof(e));
+     return 0;
+}
+
+
+output:
+size of int is 4
+size of long is 8
+size of long long is 8
+size of double is 8
+size of long double is 16
