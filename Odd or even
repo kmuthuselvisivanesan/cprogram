@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter the number:");
+	scanf("%d",&n);
+	if(n%2==0)
+	{
+		printf("The number is even %d",n);
+	}
+	else
+		printf("The number is odd %d",n);
+
+	return 0;
+}
+
+output:
+
+Enter the number:2
+The number is even 2
+
+Enter the number:3
+The number is odd 3
