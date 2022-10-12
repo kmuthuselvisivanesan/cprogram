@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	double r1,r2,area1,area2,space;
+	printf("\nEnter the radius");
+	scanf("%lf",&r1);
+	area1=3.14159*r1*r2;
+	printf("\nEnter the radius:");
+	scanf("%lf",&r2);
+	area2=3.1415*r2*r2;
+	space=area2-area1;
+	printf("The space between two concentric circles is %0.2lf",space);
+	return 0;
+}
+
+Output:
+Enter the radius2
+Enter the radius:4
+The space between two concentric circles is 50.26
