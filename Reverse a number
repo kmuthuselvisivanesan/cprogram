@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+
+int main() {
+	int n;
+	int sum = 0;
+	int r;
+	printf("\n Enter the number:");
+	scanf("%d", &n);
+	while (n > 0) {
+		r = n % 10;
+		sum = sum * 10 + r;
+		n = n / 10;
+			printf("\n  number is:%d", sum);
+
+	}
+	printf("\n Reverse number is:%d", sum);
+
+	return 0;
+
+}
+
+output:
+
+Enter the number:12345
+ number is:5
+  number is:54
+  number is:543
+  number is:5432
+  number is:54321
+ Reverse number is:54321
